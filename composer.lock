@@ -4,20 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5767747a776e95aaa40850a2506dc96f",
+    "content-hash": "38e5630725c80fd8e6c5d9c4054029f5",
     "packages": [
         {
             "name": "adue/wordpress-base-plugin",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Adue-Digital/wordpress-base-plugin.git",
+                "reference": "3e971f84a759d9f622985ab94d6cade7f4bf08c8"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../../../wordpress-base-plugin",
-                "reference": "5cc6a8fce144d04122b64786df5f8788711c29bc"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Adue-Digital/wordpress-base-plugin/zipball/3e971f84a759d9f622985ab94d6cade7f4bf08c8",
+                "reference": "3e971f84a759d9f622985ab94d6cade7f4bf08c8",
+                "shasum": ""
             },
             "require": {
                 "hassankhan/config": "*",
                 "php-di/php-di": "^7.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -33,9 +40,11 @@
                 }
             ],
             "description": "A basic skeleton for build WordPress plugins",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/Adue-Digital/wordpress-base-plugin/tree/main",
+                "issues": "https://github.com/Adue-Digital/wordpress-base-plugin/issues"
+            },
+            "time": "2024-03-17T23:45:16+00:00"
         },
         {
             "name": "hassankhan/config",
@@ -106,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "d715a63f39ba076acf8be1e4a0901acdcc92228b"
+                "reference": "f1e9676d7be17bc0b2c0a6407009eb7f07b4261d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/d715a63f39ba076acf8be1e4a0901acdcc92228b",
-                "reference": "d715a63f39ba076acf8be1e4a0901acdcc92228b",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/f1e9676d7be17bc0b2c0a6407009eb7f07b4261d",
+                "reference": "f1e9676d7be17bc0b2c0a6407009eb7f07b4261d",
                 "shasum": ""
             },
             "require": {
@@ -160,7 +169,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2024-01-26T17:22:21+00:00"
+            "time": "2024-08-06T15:15:08+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -219,16 +228,16 @@
         },
         {
             "name": "php-di/php-di",
-            "version": "7.0.6",
+            "version": "7.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PHP-DI.git",
-                "reference": "8097948a89f6ec782839b3e958432f427cac37fd"
+                "reference": "e87435e3c0e8f22977adc5af0d5cdcc467e15cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/8097948a89f6ec782839b3e958432f427cac37fd",
-                "reference": "8097948a89f6ec782839b3e958432f427cac37fd",
+                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/e87435e3c0e8f22977adc5af0d5cdcc467e15cf1",
+                "reference": "e87435e3c0e8f22977adc5af0d5cdcc467e15cf1",
                 "shasum": ""
             },
             "require": {
@@ -276,7 +285,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-DI/PHP-DI/issues",
-                "source": "https://github.com/PHP-DI/PHP-DI/tree/7.0.6"
+                "source": "https://github.com/PHP-DI/PHP-DI/tree/7.0.7"
             },
             "funding": [
                 {
@@ -288,7 +297,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-02T10:04:50+00:00"
+            "time": "2024-07-21T15:55:45+00:00"
         },
         {
             "name": "psr/container",
